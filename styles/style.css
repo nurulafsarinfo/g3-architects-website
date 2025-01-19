@@ -7,3 +7,113 @@
   font-weight: 400;
   font-style: normal;
 }
+/* shared styles */
+.btn-primary{
+    background-color: #FF900E;
+    color: #fff;
+    padding: 18px 25px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 8px;
+    border: 0;
+}
+
+/* dark 02 */
+.display-flex{
+    display: flex;
+}
+
+/* dark 03 */
+.text-gray{
+    color: #424242;
+}
+.text-light-gray{
+    color: #727272;
+}
+.bg-light{
+    background-color: rgba(255, 144, 14, 0.1);
+    border: 2px solid red;
+}
+
+/* header styles */
+
+
+/* mavbar related styles */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand{
+    font-weight: 700;
+    font-size: 2rem;
+}
+.nav-links{
+    
+}
+.nav-item{
+    list-style: none;
+    margin-right: 20px;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+}
+.navbar, .banner{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+/* banner styles */
+.banner-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 3rem;
+}
+.banner-imagee{
+    width: 100%;
+}
+
+/* responsive media query of header section*/
+@media screen and (max-width: 576px){
+    .navbar, .nav-links{
+        /* flex-direction: column; */
+        padding: 0px 0px;
+        background-color: #FF900E;
+        border-radius: 5px;
+    }
+    .nav-link{
+        color: #fff;
+    }
+    .nav-item:hover{
+        background-color: #ce7919;
+    }
+    .brand{
+        font-size: 1.2rem;
+        border: 2px solid #FF900E;
+        padding: 10px;
+        border-radius: 8px;;
+    }
+    .nav-item{
+        margin-right: 0.5rem;
+        
+    }
+    .banner-title{
+        font-size: 2rem;
+    }
+    .banner-description{
+        font-size: 1rem;
+    }
+    .btn-primary{
+        padding: 9px 14px;
+        border-radius: 8px;
+    }
+    .banner-content{
+        margin-bottom: 25px;
+    }
+}
