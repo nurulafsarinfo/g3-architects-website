@@ -138,6 +138,17 @@ main > section{
 .card-description {
     font-size: 1rem;
 }
+#experience-badge{
+    padding: 45px 42px;
+    font-size:  1.5rem;
+    font-weight: 500;
+    margin-left: -40px;
+    margin-top: -90px;
+}
+#experience-year{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
 
 /* Some fact section style  */
 
@@ -268,6 +279,17 @@ main > section{
     .features > div > img{
         width: 100%;
     }
+    /* #experience-badge{
+        padding: 45px 42px;
+        font-size:  1.5rem;
+        font-weight: 500;
+        margin-left: -100px;
+        margin-top: -100px;
+    }
+    #experience-year{
+        font-size: 3.5rem;
+        font-weight: 700;
+    } */
 
     /* facts responsive */
     .facts-container {
@@ -318,6 +340,13 @@ main > section{
     .features > div > img{
         width: 100%;
     }
+    /* #experience-badge{
+        padding: 45px 42px;
+        font-size:  1.5rem;
+        font-weight: 500;
+        margin-left: -100px;
+        margin-top: -100px;
+    } */
 
 }
 
