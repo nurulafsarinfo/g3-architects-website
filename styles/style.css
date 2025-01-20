@@ -328,6 +328,23 @@ main > section{
         margin-left: 10px;
         margin-bottom: 50px;
     }
+    
+    .team-img-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    .f-img1, .f-img3{
+        margin-left: 30%;
+    }   
+     .our-features{
+        margin-left: 70px;
+    }
+    .feature-btn{
+        margin-top: 50%;
+        margin-left: 20%;
+    }
+
     .sponser-company{
         flex-wrap: wrap;
         gap: 25px;
